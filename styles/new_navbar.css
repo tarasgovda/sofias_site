@@ -19,6 +19,7 @@
 	height: 73px;
 	position: absolute;
 	top: 0;
+	border-color: #FBF9F9; 
 }
 
 .navbar-brand {
@@ -33,5 +34,9 @@
 
 .nav-list-margin {
 	margin-top: 10px;
+}
+
+.my-nav-container {
+	background-color: #FBF9F9;
 }
 

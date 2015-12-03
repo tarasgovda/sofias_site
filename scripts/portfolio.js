@@ -7,6 +7,12 @@
     
   	$('body').attr("style", "opacity:1");
     setResponsiveHeight('.album-logo');
+
+
+    $("#albums").load("albums/" + "Khristya" + ".htm");
+    $("#albums").load("albums/" + "Dinara" + ".htm");
+    $("#albums").load("albums/" + "MartaSanya" + ".htm");
+    $("#albums").load("albums/" + "YarkoNastya" + ".htm");
     
   	$(window).unload(function() {
   		$('body').attr("style", "opacity:0.5");
@@ -15,13 +21,11 @@
 
       scrollPos = $('body').scrollTop();
 
-      // $('body').animate({ scrollTop: 0 }, "slow");
+       $('body').animate({ scrollTop: 0 }, "slow");
       albumId = "#" + $(this).attr('id') + "-album";
       $("#albums").load("albums/" + $(this).attr('id') + ".htm");
       
         opened = true;
-        var body = $('body');
-        body.css('overflow-y', 'hidden');
       
      
       setTimeout(function(){
@@ -30,6 +34,8 @@
         console.log(2); 
         $(".colorbox-item").colorbox({rel:'colorbox-item', transition:"fade", height:"90%"});
         $(albumId).addClass("opened");
+        var body = $('body');
+        body.css('overflow-y', 'hidden');
        
        setResponsiveHeight('.album-photo');
       },1000);
