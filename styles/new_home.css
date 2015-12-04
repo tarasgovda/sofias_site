@@ -36,7 +36,7 @@
 	background-repeat: no-repeat;
 	color: white;
 	font-size: 28px;
-	letter-spacing: 10px;
+	letter-spacing: 0.7em;
 	height: 100%;
 	margin-left: 5px;
 }
@@ -52,6 +52,38 @@
 .main-title {
 	margin-left: 55%;
 	margin-top: 25%;
+}
+
+.right-section{
+	height: 100%;
+}
+
+.right-row{
+	height: 100%;
+}
+
+.right-subsection{
+	height: 25%;
+	margin-left: 5px;
+	margin-bottom: 10%;
+}
+
+.first{
+	background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.second{
+	background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.third{
+	background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 /*slider div*/
 
