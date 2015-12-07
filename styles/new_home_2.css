@@ -7,6 +7,8 @@
 
 body{
 	/*overflow: hidden;*/
+	color: #584F4F;
+	background-color: #352F2F;
 }
 .background-defaults {
 	-moz-transition: opacity 1s ease-in-out;

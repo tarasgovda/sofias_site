@@ -1,6 +1,6 @@
 .nav-container{
 	height: 70px;
-	/*background-color: white;*/
+	background-color: #352F2F;
 }
 
 .nav-center {
@@ -19,7 +19,8 @@
 	height: 73px;
 	position: absolute;
 	top: 0;
-	border-color: #FBF9F9; 
+	border-color: #352F2F; 
+	background-color: #352F2F;
 }
 
 .navbar-brand {
@@ -37,6 +38,9 @@
 }
 
 .my-nav-container {
-	/*background-color: #FBF9F9;*/
+	background-color: #352F2F;
 }
 
+a {
+	color: white !important;
+}
