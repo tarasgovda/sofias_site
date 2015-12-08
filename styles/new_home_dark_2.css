@@ -8,7 +8,11 @@
 body{
 	/*overflow: hidden;*/
 	color: #584F4F;
-	background-color: #352F2F;
+	/*background-color: #352F2F;*/
+	background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 .background-defaults {
 	-moz-transition: opacity 1s ease-in-out;
@@ -36,11 +40,11 @@ body{
 }
 
 .main-section {
-	background:url("../images/Dinara/IMG_6154.jpg");
+	background-color: #352F2F;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: white;
-	font-size: 28px;
+	font-size: 2vw;
 	letter-spacing: 0.6em;
 	height: 100%;
 	/*margin-left: 5px;*/
@@ -60,39 +64,6 @@ body{
 	margin-top: 25%;
 }
 
-.right-section{
-	height: 100%;
-}
-
-.right-row{
-	height: 100%;
-}
-
-.right-subsection{
-	height: 32.5%;
-	width: 85%;
-	margin-left: 15px;
-	margin-bottom: 2%;	
-}
-
-.first{
-	background:url("../images/khristya/IMG_1272.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-.second{
-	background:url("../images/MartaSanya/IMG_5420.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-.third{
-	background:url("../images/YarkoNastya/IMG_9521.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
 .wide-navbar{
 	width: 50%;
 }
@@ -102,7 +73,7 @@ ul {
 }
 
 li {
-	margin-right: 5%;
+	margin-right: 7%;
 }
 /*slider div*/
 

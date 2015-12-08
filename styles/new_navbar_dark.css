@@ -42,5 +42,9 @@
 }
 
 a {
+	color: #D4D3D3 !important;
+}
+
+a:hover {
 	color: white !important;
 }
