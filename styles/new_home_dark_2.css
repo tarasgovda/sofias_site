@@ -51,7 +51,7 @@ body{
 }
 
 .main-container{
-	height: 85vh;
+	height: 100vh;
 }
 
 .main-row{
@@ -66,6 +66,7 @@ body{
 
 .wide-navbar{
 	width: 50%;
+	background-color: #352F2F;
 }
 
 ul {
