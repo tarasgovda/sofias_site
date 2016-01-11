@@ -1,0 +1,38 @@
+@font-face{
+	font-family: "HeaderFont";
+  	src: url("../fonts/remachine_script/RemachineScript_Personal_Use.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "RegularFont";
+  	src: url("../fonts/ufonts.com_century-gothic.ttf") format("truetype");
+}
+
+body {
+	background-color: #352F2F;
+	color: gray;
+}
+
+.main-column {
+	background-color: white;
+}
+
+.header {
+	text-align: center;
+	font-family: "HeaderFont";
+	font-size: 40px;
+}
+
+.sofaa-name {
+	font-size: 60px;
+}
+
+.main-navbar {
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 18px;
+	font-family: "RegularFont";
+}
+
+.home-photo {
+}
