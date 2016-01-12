@@ -11,10 +11,12 @@
 body {
 	background-color: #352F2F;
 	color: gray;
+	overflow-y: hidden; 
 }
 
 .main-column {
 	background-color: white;
+	height: 100vh;
 }
 
 .header {
@@ -34,5 +36,99 @@ body {
 	font-family: "RegularFont";
 }
 
-.home-photo {
+/*.test{
+	background-color: black;
+}*/
+
+.navbar-margin{
+	margin-left: 30%;
+}
+
+.photo-section {
+	height: 100%;
+}
+
+.photo-row {
+	height: 18%;
+	margin-left: 5%;
+}
+
+.photo-div {
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	width: 18%;
+	height: 100%;
+}
+
+#photo-1 {
+	background:url("../images/MartaSanya/IMG_5420.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-2 {
+	background:url("../images/Dinara/IMG_6137.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-3 {
+	background:url("../images/khristya/IMG_1240.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-4 {
+	background:url("../images/YarkoNastya/IMG_9312.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-5 {
+	background:url("../images/khristya/IMG_1272.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-6 {
+	background:url("../images/MartaSanya/IMG_5413.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-7 {
+	background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-8 {
+	background:url("../images/YarkoNastya/IMG_9641-2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-9 {
+	background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-10 {
+	background:url("../images/YarkoNastya/IMG_9521.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-11 {
+	background:url("../images/khristya/IMG_1316.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#photo-12 {
+	background:url("../images/MartaSanya/IMG_5099.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
