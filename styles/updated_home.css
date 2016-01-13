@@ -32,20 +32,25 @@ body {
 .main-navbar {
 	background-color: transparent;
 	border-color: transparent;
-	font-size: 18px;
+	font-size: 22px;
 	font-family: "RegularFont";
 }
 
-/*.test{
-	background-color: black;
-}*/
+.navbar-center ul {
+	width: 70%;
+}
+
+.navbar-center li {
+	margin-left: 12%;
+}
 
 .navbar-margin{
-	margin-left: 30%;
+	margin-left: 11%;
 }
 
 .photo-section {
 	height: 100%;
+	margin-top: 2%;
 }
 
 .photo-row {
