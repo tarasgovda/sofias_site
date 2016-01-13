@@ -1,6 +1,6 @@
 @font-face{
 	font-family: "HeaderFont";
-  	src: url("../fonts/remachine_script/RemachineScript_Personal_Use.ttf") format("truetype");
+  	src: url("../fonts/als-script/alsscrp.ttf") format("truetype");
 }
 
 @font-face{
@@ -36,16 +36,21 @@ body {
 	font-family: "RegularFont";
 }
 
-.navbar-center ul {
+/*.navbar-center ul {
 	width: 70%;
-}
+}*/
 
-.navbar-center li {
+/*.navbar-center li {
 	margin-left: 12%;
-}
+}*/
 
 .navbar-margin{
-	margin-left: 11%;
+	/*margin-left: 11%;*/
+}
+
+.list-div {
+	width: 50%;
+	margin: 0 auto;
 }
 
 .photo-section {
