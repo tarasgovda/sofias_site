@@ -15,15 +15,21 @@ html, body {
 	/*overflow-y: hidden; */
 }
 
+.full-height {
+	height: 100%;
+}
+
 .main-column {
 	background-color: white;
-	height: 100vh;
+	/*height: 100vh;*/
+	height: 100%;
 }
 
 .header {
 	text-align: center;
 	font-family: "HeaderFont";
 	font-size: 40px;
+	min-height: 22%;
 }
 
 .sofaa-name {
@@ -35,6 +41,7 @@ html, body {
 	border-color: transparent;
 	font-size: 22px;
 	font-family: "RegularFont";
+	min-height: 7%;
 }
 
 /*.box {
@@ -65,23 +72,26 @@ html, body {
 }
 
 .photo-section {
-	/*height: 100%;*/
-	top: 0;
-	bottom: 0;
+	height: 62%;
 	margin-top: 2%;
 }
 
+
 .photo-row {
-	height: 18%;
-	margin-left: 5%;
+	height: 30%;
+	width: 100%;
+	margin-left: 7%;
+	text-align: center;
+	
 }
 
 .photo-div {
 	margin-right: 2%;
 	margin-left: 2%;
 	margin-bottom: 3%;
-	width: 18%;
 	height: 100%;
+	display: inline-block;
+	/*width: 25%;*/
 }
 
 #photo-1 {
