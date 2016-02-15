@@ -5,14 +5,18 @@
 
 @font-face{
 	font-family: "RegularFont";
-  	src: url("../fonts/ufonts.com_century-gothic.ttf") format("truetype");
+  	src: url("../fonts/ABEAKRG.TTF") format("truetype");
 }
 
 html, body {
 	background-color: #352F2F;
 	color: gray;
 	height: 100%;
-	overflow-y: hidden;
+	/*overflow-y: hidden;*/
+	background: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .full-height {
@@ -43,25 +47,7 @@ html, body {
 	font-family: "RegularFont";
 	min-height: 7%;
 }
-
-/*.box {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}*/
-
-/*.navbar-center ul {
-	width: 70%;
-}*/
-
-/*.navbar-center li {
-	margin-left: 12%;
-}*/
-
-.navbar-margin{
-	/*margin-left: 11%;*/
-}
-
+	
 .navbar-center {
 	width: 100%;
 	text-align: center;
@@ -78,7 +64,7 @@ html, body {
 
 
 .photo-row {
-	height: 30%;
+	height: 33%;
 	width: 85%;
 	margin: 0 auto;
 	/*margin-left: 7%;*/
