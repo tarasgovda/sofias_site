@@ -10,30 +10,35 @@
 
 html, body {
 	background-color: #352F2F;
-	color: gray;
-	height: 100%;
+	/*height: 100%;*/
 	/*overflow-y: hidden;*/
 	background: url("../images/background.jpg");
-	background-size: cover;
+	/*background-size: 100% 100%;
 	background-position: center center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 
 .full-height {
 	height: 100%;
+	text-align: center;
 }
 
 .main-column {
 	background-color: white;
+	text-align: center;
 	/*height: 100vh;*/
-	height: 100%;
+	/*height: 100%;*/
 }
 
 .header {
 	text-align: center;
-	font-family: "HeaderFont";
-	font-size: 40px;
-	min-height: 13%;
+	display: inline-block;
+	/*font-family: "HeaderFont";
+	font-size: 40px;*/
+	background: url("../images/2.jpg");
+	width: 40vh;
+	background-size: 100% 100%;
+	/*min-height: 13%;*/
 }
 
 .sofaa-name {
@@ -58,15 +63,16 @@ html, body {
 }
 
 .photo-section {
-	height: 62%;
+	height: 62vh;
 	margin-top: 3%;
 }
 
 
 .photo-row {
-	height: 33%;
-	width: 85%;
+	height: 37%;
+	width: 95%;
 	margin: 0 auto;
+	margin-bottom: 1.5%;
 	/*margin-left: 7%;*/
 	/*text-align: center;*/
 	
@@ -75,12 +81,14 @@ html, body {
 .photo-div {
 	margin-right: 1%;
 	margin-left: 1%;
-	margin-bottom: 1.5%;
 	height: 100%;
 	display: inline-block;
 	/*width: 20%;*/
 }
 
+.centered{
+	display: inline-flex;
+}
 #photo-1 {
 	background:url("../images/MartaSanya/IMG_5420.jpg");
 	background-size: cover;
