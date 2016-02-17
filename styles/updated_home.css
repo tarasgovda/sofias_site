@@ -63,14 +63,14 @@ html, body {
 }
 
 .photo-section {
-	height: 62vh;
+	/*height: 62vh;*/
 	margin-top: 3%;
 }
 
 
 .photo-row {
-	height: 37%;
-	width: 95%;
+	/*height: 23vh;*/
+	/*width: 100%;*/
 	margin: 0 auto;
 	margin-bottom: 1.5%;
 	/*margin-left: 7%;*/
@@ -81,13 +81,13 @@ html, body {
 .photo-div {
 	margin-right: 1%;
 	margin-left: 1%;
-	height: 100%;
-	display: inline-block;
+	height: 22vh;
+	/*display: inline-block;*/
 	/*width: 20%;*/
 }
 
 .centered{
-	display: inline-flex;
+	display: inline-block;
 }
 #photo-1 {
 	background:url("../images/MartaSanya/IMG_5420.jpg");
