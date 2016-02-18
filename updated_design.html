@@ -78,6 +78,7 @@
 $(document).ready(function() {
 	setResponsiveWidth('.photo-div');
 	setResponsiveHeight('.header');
+	setPhotoRowWidth();
 	});
  function setResponsiveWidth(className) {
        var div = $(className);
@@ -91,6 +92,17 @@ $(document).ready(function() {
         var width = div.width();
 
         div.css('height', width);
+    }
+    function setPhotoRowWidth() {
+    	var row = $('.photo-row');
+    	var div = $('.photo-div');
+
+    	var resultWidth = 0;
+    	var divWidth= div.width();
+    	var additionalWidth = divWidth * 4 / 100 * 8;
+    	resultWidth = divWidth * 4 + additionalWidth;
+
+    	row.css('width', resultWidth);
     }
 </script>
 

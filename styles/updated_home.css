@@ -87,7 +87,8 @@ html, body {
 }
 
 .centered{
-	display: inline-block;
+	/*display: flex;*/
+	/*margin-right: -3%;*/
 }
 #photo-1 {
 	background:url("../images/MartaSanya/IMG_5420.jpg");
