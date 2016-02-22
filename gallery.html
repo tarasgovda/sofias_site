@@ -2,6 +2,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="styles/vendor/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/updated_default.css">
+	<link rel="stylesheet" type="text/css" href="styles/gallery.css">
 	<script src="scripts/vendor/jquery-1.11.0.min.js"></script>
 	<script src="scripts/vendor/bootstrap.min.js"></script>
 	<title>Sofiia Lupul</title>
@@ -42,12 +43,12 @@
 				</div>
 				</div>
 			</nav>
-			<div class="row photo-section">
-				<div class="full-height">
-					<div id="elem-1" class="element-div"></div>
-					<div id="elem-2" class="element-div"></div>
-					<div id="elem-3" class="element-div"></div>
-					<div id="elem-4" class="element-div"></div>
+			<div class="row main-section">
+				<div class="row content">
+					<div id="elem-1" class="element-div"><p>Art</p></div>
+					<div id="elem-2" class="element-div"><p>Wedding</p></div>
+					<div id="elem-3" class="element-div"><p>Portraits</p></div>
+					<div id="elem-4" class="element-div"><p>Culinary</p></div>
 				</div>
 			</div>
 		</div>
@@ -56,7 +57,7 @@
 <script>
 
 $(document).ready(function() {
-	setResponsiveWidth('.photo-div');
+	setResponsiveWidth('.element-div');
 	setResponsiveHeight('.header');
 	});
 
@@ -74,7 +75,7 @@ $(document).ready(function() {
     }
 
     function setPhotoRowWidth(divWidth) {
-    	var row = $('.photo-row');
+    	var row = $('.content');
     	var resultWidth = 0;
     	var additionalWidth = divWidth * 5 / 100 * 8;
     	resultWidth = divWidth * 4 + additionalWidth;

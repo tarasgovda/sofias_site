@@ -10,7 +10,7 @@
 
 html, body {
 	background-color: #352F2F;
-	background: url("../images/background.jpg");
+	/*background: url("../images/background.jpg");*/
 }
 
 .full-height {
@@ -38,7 +38,7 @@ html, body {
 .main-navbar {
 	background-color: transparent;
 	border-color: transparent;
-	font-size: 200%;
+	font-size: 24px;
 	font-family: "RegularFont";
 	min-height: 7%;
 }
@@ -50,4 +50,14 @@ html, body {
 
 .list-div {
 	display: inline-block;
+}
+
+.main-section {
+	margin-top: 3%;
+}
+
+
+.photo-row {
+	margin: 0 auto;
+	margin-bottom: 1.5%;
 }
