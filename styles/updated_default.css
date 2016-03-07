@@ -27,7 +27,7 @@ html, body {
 	text-align: center;
 	display: inline-block;
 	background: url("../images/2.jpg");
-	width: 40vh;
+	width: 280px;
 	background-size: 100% 100%;
 }
 
@@ -60,4 +60,12 @@ html, body {
 .photo-row {
 	margin: 0 auto;
 	margin-bottom: 1.5%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
 }

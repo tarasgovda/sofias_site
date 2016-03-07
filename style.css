@@ -1,0 +1,29 @@
+@font-face{
+	font-family: "RegularFont";
+  	src: url("fonts/ABEAKRG.TTF") format("truetype");
+}
+
+body {
+	background-color: pink;
+	text-align: center;
+}
+
+.img-div{
+	height: 100vh;
+	width: 60%;
+	margin: 0 auto;
+	background:url("img.jpg");
+	/*background-size: cover;*/
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	line-height: 100vh;
+	font-family: "RegularFont"; 
+	color: white;
+	transition-duration: 1s;
+	font-size: 26px;
+}
+
+.img-div:not(:hover){
+	opacity: 0.8;
+}

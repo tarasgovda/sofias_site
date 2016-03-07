@@ -25,14 +25,14 @@
 	margin-right: 5%;
 	margin-left: 5%;
 	margin-bottom: 3%;
-	height: 26vh;
+	height: 200px;
 	/*float: left;*/
 	font-family: "RegularFont";
 	font-size: 26px;
 	text-align: center;
 	color: white;
 	transition-duration: 1s;
-	line-height: 26vh;
+	line-height: 200px;
 	vertical-align: middle;
 }
 
