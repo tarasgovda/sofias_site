@@ -1,0 +1,27 @@
+#elem-1 {
+	background:url("../images/gallery/IMG_1240.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#elem-2 {
+	background:url("../images/gallery/IMG_6202.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#elem-3 {
+	background:url("../images/gallery/IMG_1240.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#elem-4 {
+	background:url("../images/gallery/culinary_sample.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
