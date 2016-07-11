@@ -1,0 +1,133 @@
+@font-face{
+	font-family: "MyFont";
+  	src: url("../fonts/ufonts.com_century-gothic.ttf") format("truetype");
+}
+body {
+	/*color:#808080;*/
+	color: #584F4F;
+	font-family:"MyFont";
+	font-size:21px;
+	opacity: 0.5;
+	overflow-x: hidden;
+	height: 100%;
+	-webkit-transition: opacity 0.6s ease-in-out;
+  -moz-transition: opacity 0.6s ease-in-out;
+  -o-transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.6s ease-in-out;
+ /* background:url("../images/Dinara/IMG_6154.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+
+ background-color: white;
+}
+
+.left-section {
+	background-color: #352F2F;
+	color: white;
+	height: 100%;
+}
+
+.right-section{
+	background-color: white;
+	height: 100%;
+}
+
+.upper-section {
+	height: 50%;
+	border-bottom: solid;
+	border-color: black;
+	border-width: thin;
+}
+
+.bottom-section {
+	height: 50%;
+}	
+
+.centered-section {
+	display: flex;
+}
+
+.main-container{
+	height: 100vh;
+}
+
+.main-row{
+	height: 100%;
+
+}
+
+.admin-title {
+	margin: auto;
+	font-size: 2vw;
+	letter-spacing: 0.6em;
+	text-align: center;
+}
+
+.block-link {
+	display: block;
+	margin: auto;
+}
+
+a.block-link {
+	text-decoration: none;
+	color: #847E7E;
+	cursor: pointer;
+}
+
+a:hover.block-link {
+	color: black;
+}
+
+.admin-edit-header {
+	height: 10%;
+	color: black;
+	border-bottom: solid;
+	border-color: black;
+	border-width: thin;
+	display: flex;
+}
+
+.admin-edit-list {
+	font-family:"MyFont"; 
+	margin-top: 30%;
+}
+
+.admin-list-image {
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-right: 14px;
+}
+
+.name-edit-block {
+	border-bottom: solid;
+	border-color: black;
+	border-width: thin;
+	margin-bottom: 20px;
+}
+
+.image-edit-block {
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	height: 200px;
+	/*float: left;*/
+	font-family: "RegularFont";
+	font-size: 26px;
+	text-align: center;
+	color: white;
+	transition-duration: 1s;
+	line-height: 200px;
+	vertical-align: middle;
+}
+
+#elem-1 {
+	background:url("../images/gallery/IMG_6202.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.admin-edit-image-navbar {
+	height: 40px;
+}
