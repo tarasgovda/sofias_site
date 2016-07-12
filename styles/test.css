@@ -106,19 +106,19 @@ a:hover.block-link {
 	margin-bottom: 20px;
 }
 
-.image-edit-block {
+.avatar-edit-block {
 	margin-right: 5%;
 	margin-left: 5%;
 	margin-bottom: 3%;
 	height: 200px;
-	/*float: left;*/
-	font-family: "RegularFont";
-	font-size: 26px;
-	text-align: center;
-	color: white;
-	transition-duration: 1s;
-	line-height: 200px;
-	vertical-align: middle;
+}
+
+.photo-edit-block {
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	height: 200px;
+	width: 200px;
 }
 
 #elem-1 {

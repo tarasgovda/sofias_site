@@ -24,7 +24,7 @@
         </div>
         <div class="list-group admin-edit-list">
           <li class="list-group-item">
-            <img class = "admin-list-image" src="images/cancel.png"></img>
+            <img class = "admin-list-image" src="images/cancel.png" data-toggle="modal" data-target="#editPhotosModal"></img>
             <img class = "admin-list-image" src="images/edit.png" data-toggle="modal" data-target="#editModal"></img> 
             Art
           </li>
@@ -52,7 +52,30 @@
         </div>
         <div class="modal-body">
           <p class="name-edit-block">Edit category name</p>
-          <div id = "elem-1" class = "image-edit-block">
+          <div id = "elem-1" class = "avatar-edit-block">
+          </div>
+          <div class = "admin-edit-image-navbar">
+            <img class = "admin-list-image" src="images/cancel.png"></img>
+            <img class = "admin-list-image" src="images/edit.png" ></img>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="editPhotosModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Album Name: Edit Photos</h4>
+        </div>
+        <div class="modal-body">
+          <p class="name-edit-block">Edit category name</p>
+          <div id = "elem-1" class = "photo-edit-block">
           </div>
           <div class = "admin-edit-image-navbar">
             <img class = "admin-list-image" src="images/cancel.png"></img>
